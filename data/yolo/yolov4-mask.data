@@ -1,0 +1,5 @@
+classes = 2
+train = data_train.txt
+valid = data_test.txt
+names = ../yolo/class.names
+backup = backup/

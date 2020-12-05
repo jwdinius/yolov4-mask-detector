@@ -1,0 +1,7 @@
+build
+*.png
+*.avi
+data/training
+data/testing
+data/yolo/yolov4.conv.137
+data/*.zip
