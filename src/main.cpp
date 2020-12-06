@@ -66,7 +66,7 @@ int main(int argc, char** argv) {
   
   //! command-line arg parser
   cv::CommandLineParser parser(argc, argv, keys);
-  parser.about("Use this script to run object detection deep learning networks using OpenCV.");
+  parser.about("This application performs mask/no-mask detection from sample input using OpenCV and DarkNet-based object detectors.");
   
   if (parser.has("help")) {
       parser.printMessage();
