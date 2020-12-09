@@ -49,7 +49,7 @@ At the end of training, you should see an image like the following:
 
 ## Download pre-trained task-specific weights
 
-I've already trained the network on the dataset linked above.  If you want to just use these and skip training, here's the links:
+I've already trained the network on the dataset linked above.  If you want to just use these and skip training, here are the links:
 
 * [(Height, Width) = (256, 256)](https://drive.google.com/file/d/1TRixgeK0tvrcxfgcCoDZqlZTmCW1hThS/view?usp=sharing)
 * [(Height, Width) = (416, 416)](https://drive.google.com/file/d/1aN66YAFzePw0Ioi_B5mU5PXH_3jDw7mB/view?usp=sharing)
@@ -71,7 +71,11 @@ mkdir build && cd build && cmake .. && make -j2
 ./maskDetector -h
 ```
 
-will show all available options, with descriptions.
+will show all available options, with descriptions.  There are three input options available:
+
+* Running on sample image - you can pass a relative path to an image file with extension png or jpg
+* Running on sample video - you can pass a relative path to a video file with extension mp4
+* Running on webcam - you can pass a dev number (e.g. 0) to point to the resolved serial device for your webcam
 
 ### Running on sample image
 
