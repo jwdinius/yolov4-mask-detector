@@ -8,7 +8,7 @@ Demonstration of how to build a real-time, multi-threaded mask detector using Op
 
 The hardware setup used was:
 
-* [Intel Core i7-6800K 6-Core 3.4GHz processor](https://www.newegg.com/intel-core-i7-6th-gen-core-i7-6800k/p/N82E16819117649)
+* [Intel Core i7-6800K 6-Core 3.4GHz processor](https://www.newegg.com/intel-core-i7-6th-gen-core-i7-6800k/p/N82E16819117649) - 32GB RAM
 * [GeForce GTX 1080 Ti](https://www.nvidia.com/en-sg/geforce/products/10series/geforce-gtx-1080-ti/)
 
 ## Dependencies (just use Docker)
