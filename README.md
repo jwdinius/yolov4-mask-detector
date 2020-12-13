@@ -41,7 +41,6 @@ There are python scripts provided to do final setup of the training and validati
 ### Train the network
 
 If you wish to train your network end-to-end, you can follow the instructions from [AlexeyAB's Darknet fork](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)
-[darknet weights](https://drive.google.com/open?id=1JKF-bdIklxOOVy-2Cr5qdvjgGpmGfcbp).
 
 At the end of training, you should see an image like the following:
 
